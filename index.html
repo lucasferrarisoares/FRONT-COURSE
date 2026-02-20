@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Tricolor</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <img src="img/saopaulo.png" alt="foto spfc" width="50" height="50">
+    <header class="cabecalho">
+        <nav class="cabecalhoMenu">
+            <img src="assets/saopaulo.png" alt="foto spfc" width="50" height="50">
+            <a class="cabecalhoMenuLink" href="index.html">Home</a>
+            <a class="cabecalhoMenuLink" href="about.html">Sobre mim</a>
+            <a class="cabecalhoMenuLink">Sobre o Soberano</a>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacaoConteudo">
@@ -16,14 +21,23 @@
             <p class="apresentacaoConteudoTexto">Olá! sou um jovem garto do <strong>Back-end se aventurando pelo Front.</strong> 
             Mostrando minha completa paixão pelo <strong>São Paulo Futebol Clube</strong></p>
             <div class="apresentacaoLinks">
-                <a class="apresentacaoLinksLink" href="https://instagram.com/l.ferrarim">Instagram</a>
-                <a class="apresentacaoLinksLink" href="https://github.com/lucasferrarisoares">GitHub</a>
+                <h2 class="apresentaoLinksSubTitulo">Acesse minhas redes:</h2>
+                <a class="apresentacaoLinksLink" href="https://github.com/lucasferrarisoares">
+                    <img src="assets/github.png">
+                    GitHub</a>
+                <a class="apresentacaoLinksLink" href="https://instagram.com/l.ferrarim">
+                    <img src="assets/instagram.png">
+                    Instagram</a>
+                <a class="apresentacaoLinksLink" href="https://www.linkedin.com/in/lucas-ferrari-soares/">
+                    <img src="assets/linkedin.png">
+                    Linkedin</a>    
             </div>
         </section>
-        <img src="img/fotodev.png" alt="foto do Lucas São Paulino">
+        <img src="assets/fotodev.png" alt="foto do Lucas São Paulino">
     </main>
-    <footer>
-        <img src="img/saopaulo.png" alt="foto spfc" width="50" height="50">
+    <footer class="rodape">
+        <img src="assets/saopaulo.png" alt="foto spfc" width="50" height="50"> 
+        <p class="rodapeTexto">Desenvolvido por Lucas Ferrari Soares</p>
     </footer>
 </body>
 </html>
